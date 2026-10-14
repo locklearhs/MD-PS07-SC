@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 07"
-author: "Your Name"
+author: "Harley Locklear"
 date: last-modified
 date-format: "[Last modified on] MMMM DD, YYYY HH:mm:ss zzz"
 format: 
@@ -114,7 +114,7 @@ Again, for this exercise, the **population** of interest will be **ALL** `r n` i
 ::: {.callout-caution icon="false" title="R Code"}
 ```{r}
 gss_YEAR |> 
-  summarize(divorced = sum(marital == "Divorced"), 
+  summarize(divorced = sum(marital == "Divorced"), #summing a logical vector gives how many ppl are divorced bc 1=true and 0=false
             N = n(), p2 = mean(marital == "Divorced")) |> 
   mutate(p = divorced / N) -> ans
 ans
