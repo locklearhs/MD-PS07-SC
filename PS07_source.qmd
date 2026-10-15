@@ -178,7 +178,7 @@ Ask two of your classmates what their estimate of $\hat{p}$ was. How do the $\ha
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 1 Answers"}
--   Delete this and put your text answer here.
+My classmates' estimates of p^ was different than mine because their seeds were different. Despite the difference, they all are around the true population proportion.
 :::
 
 ::: {.callout-note icon="false" title="Problem 2"}
@@ -186,7 +186,7 @@ Ask two of your classmates what their estimate of $\hat{p}$ was. How do the $\ha
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 2 Answers"}
--   Delete this and put your text answer here.
+Everyone got a different estimate because the random sample is different because we did not set a seed.
 :::
 
 ## Estimating $\widehat{SE}$ from a Single Sample
@@ -252,7 +252,7 @@ What is the name of the column that identifies which of the 1000 samples each ro
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 3 Answers"}
--   Delete this and put your text answer here.
+The name is `replicate`.
 :::
 
 ::: {.callout-note icon="false" title="Problem 4"}
@@ -260,7 +260,7 @@ What is the sample size $n$ for each of the $1000$ samples we took? (i.e. how ma
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 4 Answers"}
--   Delete this and put your text answer here.
+The sample size is 50.
 :::
 
 The following code chunk calculates the sample proportion $\hat{p}$ of people who reported they were divorced for each of the **1000 samples**.
